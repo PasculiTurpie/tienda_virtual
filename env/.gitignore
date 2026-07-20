@@ -1,0 +1,43 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración y secretos de Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+.env
+.env.local
+.env.*.local
+
+# Archivos estáticos y subidos por usuarios (Media)
+/staticfiles/
+/static_root/
+/media/
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema y de editores de código (IDE)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Cobertura y pruebas (Testing)
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
