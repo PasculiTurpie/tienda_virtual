@@ -1,43 +1,34 @@
-# Entornos virtuales
-.venv/
-venv/
+# Entornos virtuales (Virtual environments)
 env/
+venv/
+.venv/
 ENV/
-env.bak/
-venv.bak/
 
-# Byte-compiled / archivos de caché de Python
+# Byte-code de Python y caché
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Configuración y secretos de Django
-local_settings.py
+# Configuración local de Django y claves secretas
 db.sqlite3
 db.sqlite3-journal
 .env
-.env.local
-.env.*.local
+local_settings.py
 
-# Archivos estáticos y subidos por usuarios (Media)
-/staticfiles/
-/static_root/
+# Archivos multimedia y estáticos locales
 /media/
+/static/
+!/static_root/
 
-# Archivos de logs
+# Logs y bases de datos locales
 *.log
 
-# Archivos del sistema y de editores de código (IDE)
+# Archivos de configuración de editores/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Archivos del sistema operativo
 .DS_Store
 Thumbs.db
-
-# Cobertura y pruebas (Testing)
-.coverage
-htmlcov/
-.pytest_cache/
-.tox/
-.nox/
